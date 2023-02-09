@@ -10,9 +10,7 @@ import { Course } from './model/course';
 })
 export class AppComponent {
 
-  course1= COURSES[0];
-  course2= COURSES[1];
-  course3= COURSES[2];
+  courses = COURSES;
   
   // onAppclick(){
   //   console.log("App click");
