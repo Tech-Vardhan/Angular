@@ -19,7 +19,7 @@ export class CourseCardComponent {
   courseSelected  = new EventEmitter<Course>();
   
   onCourseView(){
-    // console.log("Click");
+    console.log("Click");
     this.courseSelected.emit(this.course);
   }
   
