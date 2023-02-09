@@ -42,9 +42,10 @@ course-card.is-first {
   padding-top: 20px;
 }
 
-course-card.is-last {
+course-card.is-last1{
   border-bottom: 2px solid grey;
   padding-top: 20px;
+
 }
 
 course-card.is-even {
