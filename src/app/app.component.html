@@ -8,9 +8,9 @@
 <h1>{{course1.description}}</h1> -->
 <div class="courses">
     <!-- <course-card (click) ="onAppclick()" [course]="course1"> </course-card> -->
-    <course-card *ngFor="let course from courses"
-                (courseSelected)="onCourseSelected($event)"  
-                    [course]="coreCourse"> </course-card>
+    <course-card *ngFor="let course of courses; index as i";
+                 (courseSelected)="onCourseSelected($event)"  
+                    [course]="course" [cardIndex] ="i + 1" ></course-card>
 
    
 </div>
