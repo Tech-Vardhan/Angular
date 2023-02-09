@@ -17,8 +17,9 @@ export class AppComponent {
   // onAppclick(){
   //   console.log("App click");
   // }
-  onCourseSelected(course:Course){
-    console.log("Parent click",course);
+  onCourseSelected(course : Course){
+    console.log(course);
   }
+  
   
 }

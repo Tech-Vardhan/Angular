@@ -16,22 +16,14 @@ export class CourseCardComponent {
   course:Course;
   
   @Output()
-  courseSelected = new EventEmitter<Course>();
-
-  // onCourseSelected(){
-  //   console.log("From Child");
+  courseSelected  = new EventEmitter<Course>();
   
-  // }
-  
-  onCourseViewed(){
+  onCourseView(){
     console.log("Click");
     this.courseSelected.emit(this.course);
   }
-  // onCourseClick(){
- 
-  //   console.log("click");
-  // }
   
+
 }
 function output() {
   throw new Error('Function not implemented.');
