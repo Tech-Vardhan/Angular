@@ -1,0 +1,15 @@
+<div class="top-menu">
+
+    <img class="logo"
+         src="https://angu lar-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png">
+
+</div>
+<!-- 
+<h1>{{course1.description}}</h1> -->
+<div class="courses">
+    <!-- <course-card (click) ="onAppclick()" [course]="course1"> </course-card> -->
+    <course-card (courseSelected) ="onCourseSelected($event)" [course]="course1"> </course-card>
+
+    <course-card [course]="course2"> </course-card>
+    <course-card [course]="course3"> </course-card>
+</div>
