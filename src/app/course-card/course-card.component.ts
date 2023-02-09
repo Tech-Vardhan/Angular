@@ -25,6 +25,15 @@ export class CourseCardComponent {
     console.log("Click");
     this.courseSelected.emit(this.course);
   }
+  // if(this.course.category = BEGINNER)
+  // {
+  //   beginner':true,'course-card':true
+  // }
+  cardClasses(){
+    if(this.course.category=='BEGINNER'){
+      return('beginner')
+    }
+  }
   
 
 }

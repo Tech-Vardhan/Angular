@@ -9,8 +9,13 @@ import { Course } from './model/course';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  
+  
   courses = COURSES;
+  // title = COURSES[0].description;
+  // startDate  = new Date(20,0,1);
+  // price = 99.9999;
+  // rate = 0.76
   
   // onAppclick(){
   //   console.log("App click");
